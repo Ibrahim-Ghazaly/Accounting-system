@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/master.css" rel="stylesheet" />
+    <!-- font awosome -->
+    <link href="css/all.min.css" rel="stylesheet" />
+
+
+    <title>Accounting system</title>
+  </head>
+  <body style="direction: rtl">
+    <!-- start head  -->
+    <header id="header" class="between-flex p-15"></header>
+    <!-- end head  -->
+    <div class="page d-flex">
+      <!-- start sidebar  -->
+      <aside class="sidebar p-relative pt-15"></aside>
+      <!-- end sidebar  -->
+
+      <!-- start content  -->
+      <div class="content w-full">
+
+        <div class="projects p-20 rad-10 m-20 p-relative">
+          <div class="filter between-flex bg-white" style="overflow-x: scroll;">
+            <select name="count" class="count" style="padding: 5px 10px">
+              <option value="10">10</option>
+              <option value="10">20</option>
+              <option value="10">30</option>
+              <option value="10">40</option>
+              <option value="10">50</option>
+            </select>
+            <div class="d-flex gap-10">
+              <h3 class="hide-mobile">مبيعات نقاط البيع</h3>
+              <select name="month" class="month" style="padding: 5px 10px">
+                <option value="الشهر السابق">الشهر السابق</option>
+                <option value="الشهر الحالي">الشهر الحالي</option>
+              </select>
+              <select name="branch" class="branch" style="padding: 5px 10px">
+                <option value=" كل الفروع">كل الفروع</option>
+                <option value="القاهره">فرع القاهره</option>
+                <option value="الاسكندريه">فرع الاسكندريه</option>
+                <option value="أسيوط">فرع أسيوط</option>
+                <option value="الغردقه">فرع الغردقه</option>
+              </select>
+            </div>
+
+            <div class="d-flex gap-20 align-c hide-mobile">
+              <i
+                class="fa-solid fa-plus"
+                style="color: #ffffff; font-size: 20px; cursor: pointer"
+              ></i>
+              <i
+                class="fa-solid fa-x"
+                style="color: #ffffff; font-size: 20px; cursor: pointer"
+              ></i>
+              <i
+                class="fa-solid fa-print"
+                style="color: #ffffff; font-size: 20px; cursor: pointer"
+              ></i>
+              <i
+                class="fa-solid fa-question"
+                style="
+                  color: #ffffff;
+                  font-size: 20px;
+                  cursor: pointer;
+                  padding: 10px;
+                  background-color: gray;
+                  border-radius: 50%;
+                "
+              ></i>
+            </div>
+          </div>
+          <div class="responsive-table bg-white">
+            <table class="fs-15 w-full">
+              <thead>
+                <tr>
+                  <th><input type="checkbox" /></th>
+                  <th>الرقم</th>
+                  <th>التاريخ</th>
+                  <th>الرقم المرجعي</th>
+                  <th>
+                    <select class="p-10">
+                      <option>مبيعات اسيل 1</option>
+                      <option>مبيعات اسيل 2</option>
+                      <option>مبيعات اسيل 3</option>
+                    </select>
+                  </th>
+                  <th>العميل</th>
+                  <th>رقم الحساب</th>
+                  <th>رقم الهاتف</th>
+                  <th>
+                    <select class="p-10">
+                      <option>حالة البيع</option>
+                      <option>عمليات مكتمله</option>
+                      <option>عمليات تحت التشغيل</option>
+                      <option>عمليات لم تبدأ</option>
+                    </select>
+                  </th>
+                  <th>المجموع العام</th>
+                  <th>مدفوع</th>
+                </tr>
+              </thead>
+              <tbody style="text-align: center">
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>275</td>
+                  <td>12:36:34 2023-07-27</td>
+                  <td>INV/2023/07/0140</td>
+                  <td>مبيعات أسيل 1</td>
+                  <td>محمد</td>
+                  <td>102010046</td>
+                  <td>560224091</td>
+
+                  <td>
+                    <span class="btn-shape bg-green c-white"
+                      >عمليات مكتمله</span
+                    >
+                  </td>
+                  <td>517.50SAR</td>
+                  <td>SAR</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>275</td>
+                  <td>12:36:34 2023-07-27</td>
+                  <td>INV/2023/07/0140</td>
+                  <td>مبيعات أسيل 1</td>
+                  <td>محمد</td>
+                  <td>102010046</td>
+                  <td>333</td>
+
+                  <td>
+                    <span class="btn-shape bg-green c-white"
+                      >عمليات مكتمله</span
+                    >
+                  </td>
+                  <td>517.50SAR</td>
+                  <td>SAR</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>275</td>
+                  <td>12:36:34 2023-07-27</td>
+                  <td>INV/2023/07/0140</td>
+                  <td>مبيعات أسيل 1</td>
+                  <td>محمد</td>
+                  <td>102010046</td>
+                  <td>333</td>
+
+                  <td>
+                    <span class="btn-shape bg-green c-white"
+                      >عمليات مكتمله</span
+                    >
+                  </td>
+                  <td>517.50SAR</td>
+                  <td>SAR</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>275</td>
+                  <td>12:36:34 2023-07-27</td>
+                  <td>INV/2023/07/0140</td>
+                  <td>مبيعات أسيل 1</td>
+                  <td>محمد</td>
+                  <td>102010046</td>
+                  <td>333</td>
+
+                  <td>
+                    <span class="btn-shape bg-green c-white"
+                      >عمليات مكتمله</span
+                    >
+                  </td>
+                  <td>517.50SAR</td>
+                  <td>SAR</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>275</td>
+                  <td>12:36:34 2023-07-27</td>
+                  <td>INV/2023/07/0140</td>
+                  <td>مبيعات أسيل 1</td>
+                  <td>محمد</td>
+                  <td>102010046</td>
+                  <td>333</td>
+
+                  <td>
+                    <span class="btn-shape bg-green c-white"
+                      >عمليات مكتمله</span
+                    >
+                  </td>
+                  <td>517.50SAR</td>
+                  <td>SAR</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" /></td>
+                  <td>275</td>
+                  <td>12:36:34 2023-07-27</td>
+                  <td>INV/2023/07/0140</td>
+                  <td>مبيعات أسيل 1</td>
+                  <td>محمد</td>
+                  <td>102010046</td>
+                  <td>333</td>
+
+                  <td>
+                    <span class="btn-shape bg-green c-white"
+                      >عمليات مكتمله</span
+                    >
+                  </td>
+                  <td>517.50SAR</td>
+                  <td>SAR</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div
+            class="pagination between-flex w-full"
+            style="background-color: #ffffff; padding: 20px; margin-top: 50px"
+          >
+            <div>عرض 1 الي 6 من 6</div>
+            <div>
+              <button style="border: none; background-color: #a6bee8;color: #1458cc;padding: 5px 10px;border-radius: 5px;">السابق
+                <i class="fa-solid fa-angle-up" ></i>
+
+              </button>
+              <span style="padding:5px 10px ;background-color: #1458cc;color:#fff;border-radius: 5px;">1</span>
+              <button style="border: none; background-color: #a6bee8;color: #1458cc;padding: 5px 10px;border-radius: 5px;">التالي
+                <i class="fa-solid fa-angle-down" ></i>
+
+              </button>
+            </div>
+          </div>
+          <div style="margin-top: 50px" class="between-flex total">
+            <div >
+              <i class="fa-regular fa-bookmark" style="color: #1458cc"></i>
+              <select class="p-10">
+                <option hidden>التاريخ</option>
+                <option>يناير</option>
+                <option>فبراير</option>
+                <option>مارس</option>
+                <option>أبريل</option>
+                <option>مايو</option>
+                <option>يونيو</option>
+              </select>
+              <button style="border: none; padding: 5px 10px">
+                <span>A to Z</span>
+                <i class="fa-solid fa-arrow-down-long"></i>
+              </button>
+              <button
+                style="
+                  border: none;
+                  padding: 5px 10px;
+                  background-color: #1458cc;
+                  color: #ffffff;
+                "
+              >
+                <span>Z  to A</span>
+                <i class="fa-solid fa-arrow-up-long"></i>
+              </button>
+            </div>
+            <div class="fs-15 " style="text-align: center;">
+              <div class="between-flex p-10" style="text-align: center; border: 1px solid #ccc;">
+                <span>العدد</span>
+                <span>المجموع</span>
+                <span>المدفوع</span>
+                <span>الباقي</span>
+              </div>
+              <div class="between-flex p-10 gap-10" style="text-align: center; border: 1px solid #ccc">
+                <span>6</span>
+                <span>1.703.975ٍِSAR</span>
+                <span>1.903975SAR</span>
+                <span>200.00SAR</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- </div> -->
+      </div>
+      <!-- end start  -->
+    </div>
+
+    <script src="js/aside.js"></script>
+    <script src="js/header.js"></script>
+  </body>
+</html>
