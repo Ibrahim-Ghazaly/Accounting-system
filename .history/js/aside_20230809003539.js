@@ -103,7 +103,7 @@ function createSideBar() {
 
     </li>
     <li  class="between-flex pr-15 pl-5" style="cursor:pointer">
-    <a class=" d-block  fs-14 rad-6 p-10 c-white" >
+    <a class=" d-block  fs-14 rad-6 p-10 c-white" href="files.html">
         <i class="fa-regular fa-file fa-fw"></i>
         <span  class="pr-15">الموردين&العملاء</span>
      </a>
@@ -111,7 +111,7 @@ function createSideBar() {
 
     </li>
     <li  class="between-flex pr-15 pl-5" style="cursor:pointer">
-        <a class=" d-block   fs-14 rad-6 p-10 c-white" >
+        <a class=" d-block   fs-14 rad-6 p-10 c-white" href="plans.html">
         <i class="fa-solid fa-folder-open" style="color: #ffffff;"></i>
             <span class="pr-15" >التقارير الذكيه</span>
         </a>
@@ -119,7 +119,7 @@ function createSideBar() {
 
     </li>
     <li  class="between-flex pr-15 pl-5" style="cursor:pointer">
-    <a class=" d-block   fs-14 rad-6 p-10 c-white" >
+    <a class=" d-block   fs-14 rad-6 p-10 c-white" href="plans.html">
     <i class="fa-solid fa-snowflake" style="color: #ffffff;"></i>
         <span class="pr-15" >التقارير الاحصائيه</span>
     </a>
@@ -127,7 +127,7 @@ function createSideBar() {
 
     </li>
     <li  class="between-flex pr-15 pl-5" style="cursor:pointer">
-    <a class=" d-block   fs-14 rad-6 p-10 c-white">
+    <a class=" d-block   fs-14 rad-6 p-10 c-white" href="plans.html">
     <i class="fa-brands fa-shopify" style="color: #fcfcfc;"></i>
         <span class="pr-15" >التقارير الماليه</span>
     </a>
